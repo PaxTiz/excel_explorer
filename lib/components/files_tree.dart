@@ -94,7 +94,7 @@ class _FilesTree extends State<FilesTree> {
     if (Platform.isMacOS) {
       await Process.run('open', [item.value]);
     } else if (Platform.isWindows) {
-      await Process.run('start', [item.value]);
+      await Process.run('cmd', ['/c', item.value]);
     }
   }
 

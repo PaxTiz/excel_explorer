@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
       content: widget,
       appBar: const NavigationAppBar(
         leading: null,
-        title: Text('Excel Explorer'),
+        title: Text('Explorateur de fichiers'),
       ),
     );
   }
